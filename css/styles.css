@@ -11294,3 +11294,15 @@ textarea.form-control-lg {
   width: 4rem;
   font-size: 2rem;
 }
+
+.app-icons {
+  display: flex;
+  align-items: center;
+}
+
+.android {
+  width: 150px;
+}
+.apple {
+  width: 164px;
+}
