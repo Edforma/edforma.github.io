@@ -4,7 +4,7 @@
     <title>Redirecting to the App Store...</title>
 </head>
 <body>
-    <marquee><div id="visibleText"></div></marquee>
+    <div id="visibleText"></div>
     <noscript>
         <h1>Sorry...</h1>
         <p>We couldn't automatically redirect you to your device's app store page for Edforma.</p>
@@ -27,6 +27,8 @@
         } else if (navigator.userAgent.match(/iPhone|iPad|iPod/i)) {
             bodyText.innerHTML = 'Redirecting to the App Store...';
             document.location.href = 'https://apps.apple.com/us/app/edforma/id1639822575?itsct=apps_box_badge&amp;itscg=30200';
+        } else {
+            1
         }
     </script>
 </body>
